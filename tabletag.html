@@ -3,7 +3,7 @@
 	<title>Table Tag</title>
 </head>
 <body>
-	<table border="1" width="20%">
+	<table border="1" width="40%">
 	<thead bgcolor="yellow">
 		<tr>
 		<th>No</th>
@@ -11,40 +11,45 @@
 		<th>Qty</th>
 		<th>Unit</th>
 		<th>Total</th>
+		<th>QC</th>
 	</tr>
 	</thead>
 
 	<tbody  bgcolor="green" align="center">
-		<tr>
-			<td>1</td>
-			<td>Coffee</td>
-			<td>1</td>
-			<td>pcs</td>
-			<td>100</td>
-		</tr>
+
+	<tr>
+		<td>1</td>
+		<td align="left">Coffee</td>
+		<td>1</td>
+		<td>pcs</td>
+		<td align="right">100</td>
+		<td rowspan="3">Passed</td>
+	</tr>
 	<tr>
 		<td>2</td>
-		<td>Rice</td>
+		<td align="left">Rice</td>
 		<td>1</td>
 		<td>box</td>
-		<td>3000</td>
+		<td align="right">3000</td>
+
+		
 	</tr>
 	<tr >
 		<td>3</td>
-		<td>Water</td>
+		<td align="left">Water</td>
 		<td>1</td>
 		<td>bot</td>
-		<td>500</td>
+		<td align="right">500</td>
 	</tr>
+
 	</tbody>
 
 	<tfoot  bgcolor="#7e83e0" >
-		<tr>
-		
-			<td colspan="4" align="right">Total</td>
-			<td>3600</td>
-			
-		</tr>
+	<tr>
+		<td colspan="4" align="right">Total</td>
+		<td>3600</td>
+	</tr>
+	
 	</tfoot>
 
 
