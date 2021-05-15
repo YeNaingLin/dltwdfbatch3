@@ -6,11 +6,19 @@
 		
 		<h1>Form Tag</h1>
 
-		<form action="" method="">
+
+
+
+
+		<fieldset>
+			<legend>This is sample form &#x00024; &yen; &#163; &#38;
+</legend>
+
+		<form action="" method="" enctype="multipart/formdata">
 
 
 			<label for="firstname">First Name</label>
-			<input type="text" name="firstname" id="firstname" class="" placeholder="Enter your first name" disabled />
+			<input type="text" name="firstname" id="firstname" class="" placeholder="Enter your first name" minlength="4" maxlength="6" />
 
 			<br/>
 
@@ -20,12 +28,12 @@
 			<br/>
 
 			<label for="email">Email</label>
-			<input type="email" name="email" id="email" class="" placeholder="Enter your email" disabled />
+			<input type="email" name="email" id="email" class="" placeholder="Enter your email" required />
 
 			<br/>
 
 			<label for="password">Password</label>
-			<input type="password" name="password" id="password" class="" placeholder="Enter your password" />
+			<input type="password" name="password" id="password" class="" placeholder="Enter your password" required />
 
 			<br/>
 			<label for="age">Age</label>
@@ -60,13 +68,69 @@
 			</select>
 
 
+			<br/>
+			<label for="role">Role</label>
+			<select name="role" id="role" class="" multiple>
+				<option value="mg">Manager</option>
+				<option value="ed" >Editor</option>
+				<option value="sl">Sales</option>
 
+			</select>
+
+			<br/>
+			<input type="hidden" name="test" id="test" class="" value="Test" />
+
+			<br/>
+			<label for="date">Date</label>
+			<input type="date" name="date" id="date" class="" />
+
+
+			<br/>
+			<label for="time">Time</label>
+			<input type="time" name="time" id="time" class="" />
+
+			<br/>
+			<label for="datetime">Date Time</label>
+			<input type="datetime-local" name="datetime" id="datetime" class="" />
+
+
+			<br/>
+			<label for="nrcfront">NRC</label>
+			<input type="file" name="nrcfront" id="nrcfront" class="" multiple />
+
+
+			<br/>
+			<label for="range">Range</label>
+			<input type="range" name="range" id="range" class="" min="0" max="100" value="0" />
+
+			<br/>
+			<label for="bio">Bio</label><br/>
+			<textarea rows="10"></textarea>
+
+			<br/>
+
+
+			<br/>
+			<input type="reset" name="reset" id="reset" class="" value="Cancel" />
+			<input type="submit" name="submit" id="submit" class="" value="Register" />
+			<button type="submit" name="btn" id="btn" class="">Register</button>
 
 		</form>
+
+</fieldset>
+
+
+
+<hr/>
+
+
+<iframe src="tabletag.html" width="1200px" height="300px"></iframe>
+
+
 	</body>
 </html>
 
 
 <!-- Attributes -->
 <!-- Stand Alone Attribute -->
-<!-- checked / Selected / disabled-->
+<!-- checked / Selected / disabled / multiple / required-->

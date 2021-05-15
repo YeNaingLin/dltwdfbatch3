@@ -1,0 +1,79 @@
+/*Universal Selector*/
+*{
+	cursor:pointer;
+}
+
+
+.firstdiv{
+	color:red;
+	font-size:30px;
+	width:200px;
+	height: 100px;
+	background-color:rgba(41,80,127,1);
+	opacity:1;
+	/*cursor:pointer;*/
+}
+
+
+.seconddiv{
+	color:green;
+	width: 300px;
+	height: 300px;
+	font-size: 20px;
+
+	/*
+	border:3px;
+	border-style:solid; 
+	border-color:blue;
+	*/
+
+	border:3px solid red;
+
+	background-image:url(../img/cover/bg1.jpg);
+	/*background-repeat:no-repeat;*/
+	/*background-repeat: repeat;*/
+	/*background-repeat:repeat-x;*/
+	/*background-repeat: repeat-y;*/
+
+	background-position:center;
+
+}
+
+
+.divthree{
+	font-size:30px;
+	width: 200px;
+	height: 200px;
+	border:3px solid red;
+	color:white;
+
+	/*background:linear-gradient(blue,orange,red,yellow);*/
+	/*background:linear-gradient(rgba(17,239,127,1.00),rgba(211,33,127,1.00));*/
+	/*background:linear-gradient(#32a85e,#223499);*/
+	/*background:linear-gradient(40deg,rgba(17,239,127,1.00),rgba(211,33,127,1.00));*/
+
+
+	/*background:radial-gradient(blue,orange,red);*/
+	/*background:radial-gradient(rgba(17,239,127,1.00),rgba(211,33,127,1.00));*/
+	background:radial-gradient(#32a85e,#223499);
+
+
+
+}
+
+
+/*function
+name() <= function name
+(value) <= parameter or argument (single,multiparamenter)*/
+
+/** = any*/
+
+
+/*gradient
+linear
+radial
+*/
+
+/*
+
+15B3 WDFXXXX*/
