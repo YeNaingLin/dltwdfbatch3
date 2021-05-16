@@ -1,0 +1,25 @@
+/*body{
+	font-family:Arial,Century,"Times New Roman" ;
+}
+
+.p2{
+	font-family:Century,"Times New Roman";
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+
+body{
+	font-family: 'Stick', Arial , Century;
+}
+
+
+/*art-rules
+
+@import
+@page
+@media
+@font-face
+@charset
+@namespace
+*/
